@@ -1,0 +1,215 @@
+body {
+  background: url(./ruby.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#video-container {
+    max-width: 800px !important;
+    margin: 150px auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    background-color: #ffffffba !important;
+    padding: 26px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px #7171de !important;
+    animation: fade-in 1s ease-out !important;
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#video-player {
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #7171de;
+  /* animation: rainbow-border 10s linear infinite; */
+}
+#video-player.inactive {
+  /* Define styles when not active */
+  /* For example, hide the border */
+  border: none;
+}
+
+#video-player.active {
+  /* Define styles when active */
+  /* For example, show the border */
+  border: 3px solid red;
+}
+#video-player video {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /*   border:3px solid rgba(0,0,0,0.3);
+  /* Khung viá»n má» */
+
+  /* border: 2px solid #000000; */
+}
+
+
+@keyframes rainbow-border {
+  0% {
+    border: 3px solid red;
+  }
+
+  14% {
+    border: 3px solid orange;
+  }
+
+  28% {
+    border: 3px solid yellow;
+  }
+
+  42% {
+    border: 3px solid green;
+  }
+
+  57% {
+    border: 3px solid blue;
+  }
+
+  71% {
+    border: 3px solid indigo;
+  }
+
+  85% {
+    border: 3px solid violet;
+  }
+
+  100% {
+    border: 3px solid red;
+  }
+}
+
+
+#video-player video {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#video-player img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#video-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.control-button {
+  /* your existing styles */
+  background-color: rgba(38, 38, 38, 0.3);
+  color: #fff; /* changed text color */
+ /* border: none; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  outline: none;
+}
+
+.control-button:focus {
+  border: 2px solid #999999;
+}
+
+@keyframes blink-border {
+  0% {
+    border: 5px solid transparent;
+  }
+
+  50% {
+    border: 2px solid #999999;
+  }
+
+  100% {
+    border: 5px solid transparent;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #video-player {
+    padding-bottom: 56.25%;
+  }
+
+  #video-player video {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  #video-player img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  padding:10px;
+  max-width:400px;
+}
+
+#video-player {
+  margin-bottom: 10px;
+}
+
+.control-button {
+  font-size: 14px;
+  padding: 8px 16px;
+  margin: 5px;
+}
+
+.control-button.home {
+  animation: none;
+  border: 2px solid transparent;
+}
+
+.control-button:focus.home {
+  outline: 2px solid #999999;
+}
+
+@media only screen and (max-width: 600px) {
+  #video-player {
+    padding-bottom: 0;
+  }
+
+  #video-player video,
+  #video-player img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  padding:10px;
+  max-width:100%;
+}
