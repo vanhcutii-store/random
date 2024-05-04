@@ -1,0 +1,96 @@
+{
+    "waifu": {
+        "console_open_msg": ["Haha, bạn đã mở bảng điều khiển, bạn có muốn xem bí mật của tôi không?"],
+        "copy_message": ["Bạn sao chép cái gì? Khi in lại nhớ ghi rõ nguồn"],
+        "screenshot_message": ["Xong rồi, dễ thương phải không?"],
+        "hidden_message": ["Chúng ta có thể gặp lại..."],
+        "load_rand_textures": ["Tôi chưa có quần áo nào khác", "Quần áo mới của tôi trông đẹp quá"],
+        "hour_tips": {
+            "t5-7": ["Chào buổi sáng! Kế hoạch trong ngày bắt đầu vào buổi sáng, và một ngày đẹp trời sắp bắt đầu"],
+            "t7-11": ["Chào buổi sáng! Chúc công việc may mắn, đừng ngồi lâu, hãy đứng dậy và vận động nhiều hơn nhé!"],
+            "t11-14": ["Trưa rồi, tôi đã làm việc cả buổi sáng và bây giờ là giờ ăn trưa!"],
+            "t14-17": ["Buổi chiều rất dễ buồn ngủ. Hôm nay bạn đã hoàn thành mục tiêu tập thể dục chưa?"],
+            "t17-19": ["Đã tối rồi! Hoàng hôn ngoài cửa sổ rất đẹp, đẹp nhất là hoàng hôn đỏ rực~"],
+            "t19-21": ["Chào buổi tối, hôm nay bạn thế nào?"],
+            "t21-23": ["Đã muộn rồi, đi ngủ sớm đi, chúc ngủ ngon~"],
+            "t23-5": ["Bạn là cú đêm à? Sao không đi ngủ muộn thế? Sao ngày mai bạn không dậy"],
+            "default": ["Này~ đến trêu chọc tôi đi!"]
+        },
+        "referrer_message": {
+            "localhost": ["Chào mừng bạn đến đọc<span style=\"color:#0099cc;\">『", "』</span>", " - "],
+            "baidu": ["Xin chào! Những người bạn từ Tìm kiếm Baidu<br>Bạn có tìm thấy tôi bằng cách tìm kiếm <span style=\"color:#0099cc;\">", "</span>?"],
+            "so": ["Xin chào! Những người bạn từ 360 Search<br>Bạn có tìm thấy tôi bằng cách tìm kiếm <span style=\"color:#0099cc;\">", "</span>?"],
+            "google": ["Xin chào! Những người bạn từ Google Tìm kiếm<br>Chào mừng bạn đến đọc<span style=\"color:#0099cc;\">『", "』</span>", " - "],
+            "default": ["Xin chào! I Love Youuuu <span style=\"color:#0099cc;\">", "</span>"],
+            "none": ["Chào mừng bạn đến đâyyyy, tui là waifu siêu dễ thương <span style=\"color:#0099cc;\">", "</span>", " - "]
+        },
+        "referrer_hostname": {
+            "onlytris.space": ["OnlyTris"],
+            "onlytris.name.vn": ["OnlyTris"]
+        },
+        "model_message": {
+            "1": ["Sốt Pio từ Nhà sản xuất Thuốc ~"],
+            "2": ["Sốt Tia từ Potion Maker ~"]
+        }
+
+    },
+    "mouseover": [
+        { "selector": ".container a[href^='http']", "text": ["Muốn xem <span style=\"color:#0099cc;\">{text</span> ? "] },
+        { "selector": ".fui-home", "text": ["Click để về trang chủ. Nếu muốn quay lại trang trước, bạn có thể sử dụng chức năng quay lại của trình duyệt"] },
+        { "selector": ".fui-chat", "text": ["Từng lời nói, từng nụ cười. Từng lời, từng lời."] },
+        { "selector": ".fui-eye", "text": ["Hmm... Bạn muốn đổi tôi sao?"] },
+        { "selector": ".fui-user", "text": ["Bạn có thích mặc đồ Play không?"] },
+        { "selector": ".fui-photo", "text": ["Bạn muốn chụp một bức ảnh kỷ niệm?"] },
+        { "selector": ".fui-info-circle", "text": ["Có thông tin về tôi ở đây"] },
+        { "selector": ".fui-cross", "text": ["Bạn không còn thích tôi nữa..."] },
+        { "selector": "#tor_show", "text": ["Lật trang có khó không? Bấm để hiển thị mục lục của bài viết này"] },
+        { "selector": "#comment_go", "text": ["Muốn bình luận?"] },
+        { "selector": "#night_mode", "text": ["Chăm sóc đôi mắt của bạn vào đêm khuya"] },
+        { "selector": "#qrcode", "text": ["Bạn có thể tiếp tục đọc bằng cách quét bằng điện thoại di động, rất tiện lợi"] },
+        { "selector": ".comment_reply", "text": ["Bạn định phàn nàn về điều gì"] },
+        { "selector": "#back-to-top", "text": ["Quay lại nơi bạn đã bắt đầu"] },
+        { "selector": "#author", "text": ["Tôi nên gọi cho bạn như thế nào"] },
+        { "selector": "#mail", "text": ["Để lại địa chỉ email của bạn, nếu không bạn sẽ là người không có hình đại diện"] },
+        { "selector": "#url", "text": ["Nhà bạn ở đâu, để tôi ghé thăm"] },
+        { "selector": "#textarea", "text": ["Vui lòng điền biểu mẫu cẩn thận, cấm nhận xét spam"] },
+        { "selector": ".OwO-logo", "text": ["Bạn có muốn chèn biểu tượng cảm xúc"] },
+        { "selector": "#csubmit", "text": ["Bạn có muốn [gửi]^(Cam kết) không? Nhận xét đầu tiên của bạn cần được xem xét, vui lòng kiên nhẫn chờ đợi~"] },
+        { "selector": ".ImageBox", "text": ["Click vào hình để phóng to"] },
+        { "selector": "input[name=s]", "text": ["Không thể tìm thấy nội dung bạn muốn xem? Hãy tìm kiếm nó"] },
+        { "selector": ".previous", "text": ["Trở lại trang trước và xem"] },
+        { "selector": ".next", "text": ["Chuyển đến trang tiếp theo và xem"] },
+        { "selector": ".dropdown-toggle", "text": ["Đây là menu"] },
+        { "selector": "c-player a.play-icon", "text": ["Muốn nghe nhạc"] },
+        { "selector": "c-player div.time", "text": ["Tại đây bạn có thể điều chỉnh <span style=\"color:#0099cc;\">tiến trình phát lại</span>"] },
+        { "selector": "c-player div.volume", "text": ["Tại đây bạn có thể điều chỉnh <span style=\"color:#0099cc;\">âm lượng</span>"] },
+        { "selector": "c-player div.list-button", "text": ["<span style=\"color:#0099cc;\">Có gì trong danh sách phát</span>"] } ,
+        { "selector": "c-player div.lyric-button", "text": ["Nếu bạn có <span style=\"color:#0099cc;\">lời bài hát</span>, bạn có thể hát theo" ] },
+        { "selector": ".waifu #live2d", "text": ["Bạn đang làm gì vậy, bỏ tay ra đi", "Chuột...chuột nhầm chỗ rồi!"] }
+    ],
+    "click": [
+        {
+            "selector": ".waifu #live2d",
+            "text": [
+                "Ừ... tôi vô tình va phải nó",
+                "Lolicon là cái gì?",
+                "Bạn có thấy con gấu nhỏ của tôi không?",
+                "Nếu bạn chạm vào nó lần nữa tôi sẽ gọi cảnh sát! ⌇●﹏●⌇",
+                "113? Ở đây có một kẻ biến thái cứ chạm vào tôi (ó﹏ò｡)"
+            ]
+        }
+    ],
+    "seasons": [
+        { "date": "01/01", "text": ["<span style=\"color:#0099cc;\">Ngày đầu năm mới</span>, năm mới lại bắt đầu rồi, năm nay là { năm}năm~"] },
+        { "date": "02/14", "text": ["Lại một năm nữa <span style=\"color:#0099cc;\">Ngày lễ tình nhân</span>, bạn đã tìm được nửa kia của mình trong {năm chưa }? ~"] },
+        { "date": "03/08", "text": ["Hôm nay là <span style=\"color:#0099cc;\">Ngày Phụ nữ</span>!"] },
+        { "date": "03/12", "text": ["Hôm nay là <span style=\"color:#0099cc;\">Ngày Arbor</span>, chúng ta phải bảo vệ môi trường"] },
+        { "date": "04/01", "text": ["Để tôi lặng lẽ kể cho bạn nghe một bí mật~<span style=\"background-color:#34495e;\">Hôm nay là Ngày Cá tháng Tư, đừng' đừng để bị lừa~ </span>"] },
+        { "date": "05/01", "text": ["Hôm nay là <span style=\"color:#0099cc;\">Ngày tháng Năm</span>. Bạn đã lên kế hoạch đi đâu trong kỳ nghỉ lễ chưa~ "] },
+        { "date": "06/01", "text": ["<span style=\"color:#0099cc;\">Ngày thiếu nhi</span>, thời gian hạnh phúc luôn ngắn ngủi, nếu kéo dài mãi mãi Sẽ như vậy thật tuyệt nếu nó không lớn..."] },
+        { "date": "09/03", "text": ["<span style=\"color:#0099cc;\">Ngày Chiến thắng Cuộc kháng chiến chống Nhật xâm lược của nhân dân Trung Quốc</span>, hãy nhớ đến lịch sử, tôn vinh các vị tử đạo, trân trọng Hòa bình, tạo dựng tương lai."] },
+        { "date": "09/10", "text": ["<span style=\"color:#0099cc;\">Ngày nhà giáo</span>, bạn nên chào thầy cô ở trường nhé~"] },
+        { "date": "10/01", "text": ["<span style=\"color:#0099cc;\">Quốc khánh</span>, Trung Quốc mới đã được thành lập được 69 năm"] },
+        { "date": "11/05-11/12", "text": ["Bạn đã trải qua <span style=\"color:#0099cc;\">Double Eleven</span> năm nay với ai? Cái gì ~"] },
+        { "date": "12/20-12/31", "text": ["Mấy hôm nay là <span style=\"color:#0099cc;\">Giáng sinh</span>, chắc chủ nhân sẽ đến đó lại mua, mua, mua ~"] }
+    ]
+}
