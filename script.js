@@ -75,7 +75,7 @@ function toggleActive() {
     player.play();
   });
 
-        document.addEventListener("DOMContentLoaded", function() {
+ /*       document.addEventListener("DOMContentLoaded", function() {
     var imageElement = document.createElement("img");
     var imageVietAnh = document.createElement("div");
     imageVietAnh.className = "image";
